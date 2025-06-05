@@ -1,0 +1,12 @@
+# Ignore API keys and sensitive data
+.env
+
+#Ignore Virtual Environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
