@@ -48,4 +48,5 @@ chat_completion = client.chat.completions.create(
     model="llama-3.3-70b-versatile",
 )
 
+commentary_text: str = chat_completion.choices[0].message.content
 print(chat_completion.choices[0].message.content)

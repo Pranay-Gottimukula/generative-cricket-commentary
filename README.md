@@ -1,3 +1,5 @@
+# WARNING: Use python >= 3.9, < 3.12.. version
+
 ## Setup Instructions
 
 This project is designed to be cross-platform and supports Windows, macOS, and Linux environments. Please follow the appropriate instructions below to set up the development environment and run the project successfully.
