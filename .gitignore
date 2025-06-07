@@ -13,3 +13,6 @@ __pycache__/
 
 # Personal Notes
 personal_notes.txt
+
+# Ouput file
+data/output/
