@@ -4,6 +4,8 @@
 
 This project is designed to be cross-platform and supports Windows, macOS, and Linux environments. Please follow the appropriate instructions below to set up the development environment and run the project successfully.
 
+Create data/output directory in the project folder, store your personal Groq API key in .env file
+
 ### 1. Clone the Repository
 
 ```bash
@@ -14,6 +16,28 @@ cd generative-cricket-commentary
 ### 2. Environment Setup
 
 #### For macOS / Linux Users
+
+Modify this line of setup.sh script
+
+```bash
+/usr/local/bin/python3.11 -m venv venv
+```
+
+Use the path of python3.11 in your machine, you can find the path through command
+
+```bash
+where python3.11
+```
+or
+```bash
+which python3.11
+```
+
+Then run
+
+```bash
+[Your python3.11 path] -m venv venv
+```
 
 Execute the setup script to create a virtual environment and install dependencies:
 
@@ -35,6 +59,7 @@ source venv/bin/activate
 
 #### For Windows Users
 
+Set Python 3.11.X as their default python before running setup.bat
 Run the batch script to set up the environment:
 
 ```bat
