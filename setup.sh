@@ -3,7 +3,7 @@
 echo "Setting up Python virtual environment"
 
 # Creating venv
-python3.11 -m venv venv
+/usr/local/bin/python3.11 -m venv venv
 
 # Activating venv
 source venv/bin/activate
