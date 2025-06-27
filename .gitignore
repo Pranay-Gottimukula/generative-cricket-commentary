@@ -15,4 +15,4 @@ __pycache__/
 personal_notes.txt
 
 # Ouput file
-data/output/
+data

@@ -1,3 +1,8 @@
 groq
 python-dotenv
 TTS
+yt-dlp 
+openai-whisper 
+pysrt 
+pydub 
+ffmpeg-python
